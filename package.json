@@ -1,5 +1,5 @@
 {
-  "name": "first-npm-package",
+  "name": "guilhermerodrigues680--first-npm-package",
   "version": "1.0.0",
   "description": "Publicando meu primeiro pacote no npm",
   "main": "src/index.js",
@@ -19,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/guilhermerodrigues680/first-npm-package/issues"
   },
-  "homepage": "https://github.com/guilhermerodrigues680/first-npm-package#readme"
+  "homepage": "https://github.com/guilhermerodrigues680/first-npm-package#readme",
+  "jsdelivr": "dist/first-npm-package.js",
+  "unpkg": "dist/first-npm-package.js"
 }
