@@ -1,8 +1,11 @@
-# First npm package
+# Random color generator
 
 [![npm (scoped)](https://img.shields.io/npm/v/@guilhermerodrigues680/random-color-generator.svg)](https://www.npmjs.com/package/@guilhermerodrigues680/random-color-generator)
 [![install size](https://packagephobia.com/badge?p=@guilhermerodrigues680/random-color-generator)](https://packagephobia.com/result?p=@guilhermerodrigues680/random-color-generator)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@guilhermerodrigues680/random-color-generator.svg)](https://www.npmjs.com/package/@guilhermerodrigues680/random-color-generator)
+[![github1s](https://img.shields.io/badge/github1s-One%20second%20to%20read%20GitHub-blue?logo=github)](https://github1s.com/guilhermerodrigues680/random-color-generator)
+![npm](https://img.shields.io/npm/dt/@guilhermerodrigues680/random-color-generator?logo=npm)
+
 
 Publicando meu primeiro pacote no npm.
 
