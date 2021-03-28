@@ -4,6 +4,7 @@
   "description": "Publicando meu primeiro pacote no npm",
   "main": "src/index.js",
   "scripts": {
+    "build-browser": "rm -rf dist && mkdir dist && browserify src/browser.js -o dist/random-color-generator.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   },
   "homepage": "https://github.com/guilhermerodrigues680/random-color-generator#readme",
   "jsdelivr": "dist/random-color-generator.js",
-  "unpkg": "dist/random-color-generator.js"
+  "unpkg": "dist/random-color-generator.js",
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
 }
