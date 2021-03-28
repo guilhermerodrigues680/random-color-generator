@@ -1,5 +1,9 @@
 # First npm package
 
+[![npm (scoped)](https://img.shields.io/npm/v/@guilhermerodrigues680/random-color-generator.svg)](https://www.npmjs.com/package/@guilhermerodrigues680/random-color-generator)
+[![install size](https://packagephobia.com/badge?p=@guilhermerodrigues680/random-color-generator)](https://packagephobia.com/result?p=@guilhermerodrigues680/random-color-generator)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@guilhermerodrigues680/random-color-generator.svg)](https://www.npmjs.com/package/@guilhermerodrigues680/random-color-generator)
+
 Publicando meu primeiro pacote no npm.
 
 ## Instalando
@@ -70,7 +74,9 @@ $ npm adduser
 $ npm init
 
 # Publish
+$ npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]
 $ npm publish
+$ npm publish --access=public
 $ npm unpublish guilhermerodrigues680--first-npm-package@1.0.0
 $ npm deprecate guilhermerodrigues680--first-npm-package@"< 1.0.0" "bug crítico corrigido em v1.0.0"
 ```
