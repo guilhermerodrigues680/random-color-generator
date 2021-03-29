@@ -1,6 +1,6 @@
 {
   "name": "@guilhermerodrigues680/random-color-generator",
-  "version": "0.0.2-3",
+  "version": "0.0.2-4",
   "description": "Publicando meu primeiro pacote no npm",
   "main": "src/index.js",
   "scripts": {
