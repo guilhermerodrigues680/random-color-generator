@@ -11,7 +11,9 @@
 
   <script src="https://unpkg.com/@guilhermerodrigues680/random-color-generator"></script>
   <script>
-    console.log(randomColorGenerator.getRandomColor());
+    var randomColor = randomColorGenerator.getRandomColor();
+    console.log('Random Color:', randomColor);
+    document.body.style.backgroundColor = randomColor;
   </script>
 </body>
 </html>
