@@ -118,6 +118,12 @@ Este projeto segue o seguinte o [Versionamento Semântico 2.0.0](https://semver.
 <!-- ## Changelog -->
 <!-- https://keepachangelog.com/en/1.0.0/ -->
 
+### Desenvolvimento
+
+- `npm run live-server` - Inicia um servidor com hot reload na porta 8080.
+- `npm run server` - Inicia um servidor na porta 8080.
+- `npm run build-browser` - Compila o arquivo `src/browser.js` para distribuição.
+
 ## Licença
 
 O código fonte do projeto está sob a licença **MIT License**, disponível no arquivo [LICENSE](./LICENSE) deste projeto.

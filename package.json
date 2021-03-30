@@ -8,6 +8,8 @@
     "./getRandomColor": "./src/random-color-generator.js"
   },
   "scripts": {
+    "live-server": "live-server --no-browser --no-css-inject docs",
+    "server": "http-server docs",
     "build-browser": "rm -rf dist && mkdir dist && browserify src/browser.js -o dist/random-color-generator.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +30,8 @@
   "jsdelivr": "dist/random-color-generator.js",
   "unpkg": "dist/random-color-generator.js",
   "devDependencies": {
-    "browserify": "^17.0.0"
+    "browserify": "^17.0.0",
+    "http-server": "^0.12.3",
+    "live-server": "^1.2.1"
   }
 }
